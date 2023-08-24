@@ -1,0 +1,70 @@
+body {
+  background-color: hsl(235, 18%, 26%);
+  color: hsl(234, 29%, 20%);
+  font-family: 'Roboto-Regular';
+  font-size: 13px;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../assets/fonts/Roboto-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+#main-card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  margin-left: 28%;
+  margin-top: 8%;
+  width: 650px;
+  height: 450px;
+  border-radius: 3%;
+}
+
+#inner-text-card {
+  width: 300px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+h1 {
+  font-family: 'Roboto-Bold';
+  font-size: 45px;
+  margin-bottom: 17px
+}
+
+.intro-text {
+  margin-bottom: 0;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.check-img {
+  margin-top: 0;
+  margin-right: 6px;
+  width: 15px;
+}
+
+
+
+.mac-image {
+  width: 50px;
+  height: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
