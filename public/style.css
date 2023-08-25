@@ -1,8 +1,13 @@
 body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color: hsl(235, 18%, 26%);
   color: hsl(234, 29%, 20%);
   font-family: 'Roboto-Regular';
-  font-size: 13px;
+  font-size: 12px;
   /* text-align: center; */
 }
 
@@ -17,13 +22,14 @@ body {
 }
 
 #main-card {
+  position: absolute;
   background-color: hsl(0, 0%, 100%);
   padding: 20px;
-  margin-left: 28%;
-  margin-top: 8%;
+  /* margin-left: 28%; */
+  /* margin-top: 8%; */
   width: 650px;
   height: 450px;
-  border-radius: 3%;
+  border-radius: 30px;
 }
 
 #inner-text-card {
@@ -35,7 +41,7 @@ body {
 
 h1 {
   font-family: 'Roboto-Bold';
-  font-size: 45px;
+  font-size: 40px;
   margin-top: 17px;
   margin-bottom: 17px
 }
@@ -68,7 +74,7 @@ li {
 
 #email-input {
   margin-top: 5px;
-  width: 300px;
+  width: 275px;
   height: 40px;
   border: 1px solid;
   border-radius: 5px;
@@ -78,17 +84,24 @@ li {
 button {
   background-color: hsl(234, 29%, 20%);
   color: white;
-  width: 306px;
+  width: 281px;
   height: 46px;
+  border: 0px;
   border-radius: 5px;
   margin-top: 18px;
   font-family: 'Roboto-Bold';
   font-size: 12px
 }
 
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 370px;
+}
+
 .mac-image {
-  width: 50px;
-  height: 50px;
+  height: 500px;
+  width: 300px;
 }
 
 .attribution {
