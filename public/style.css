@@ -44,6 +44,18 @@ h1 {
 ul {
   margin-top: 0;
   padding-left: 0;
+  
+}
+
+li {
+  list-style-type: none; /* Hide default bullet */
+  padding-left: 25px; /* Adjust as needed */
+  background-image: url('../assets/images/icon-success.svg');
+  background-size: 15px 15px; /* Your desired size */
+  background-repeat: no-repeat;
+  margin-bottom: 5px;
+  line-height: 15px;
+  margin-bottom: 10px;
 }
 
 .check-img {
