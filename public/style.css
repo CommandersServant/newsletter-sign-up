@@ -78,19 +78,24 @@ li {
   height: 40px;
   border: 1px solid;
   border-radius: 5px;
-  border-color: lightgray
+  border-color: lightgray;
+  padding-left: 15px;
 }
 
 button {
   background-color: hsl(234, 29%, 20%);
   color: white;
-  width: 281px;
+  width: 295px;
   height: 46px;
   border: 0px;
   border-radius: 5px;
   margin-top: 18px;
   font-family: 'Roboto-Bold';
   font-size: 12px
+}
+
+button:hover {
+  background-image: linear-gradient(to right, purple, tomato);
 }
 
 .image-container {
