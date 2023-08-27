@@ -7,3 +7,4 @@ emailText.innerText = email;
 dismissButton.addEventListener('click', () => {
     window.location = window.location.href.replace("success.html","index.html");
 });
+

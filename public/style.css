@@ -6,19 +6,19 @@ body {
   height: 100vh;
   background-color: hsl(235, 18%, 26%);
   color: hsl(234, 29%, 20%);
-  font-family: 'Roboto-Regular';
+  font-family: "Roboto-Regular";
   font-size: 12px;
   /* text-align: center; */
 }
 
 @font-face {
-  font-family: 'Roboto-Bold';
-  src: url('../assets/fonts/Roboto-Bold.ttf') format('truetype');
+  font-family: "Roboto-Bold";
+  src: url("assets/fonts/Roboto-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: 'Roboto-Regular';
-  src: url('../assets/fonts/Roboto-Regular.ttf') format('truetype');
+  font-family: "Roboto-Regular";
+  src: url("assets/fonts/Roboto-Regular.ttf") format("truetype");
 }
 
 #main-card {
@@ -40,10 +40,10 @@ body {
 }
 
 h1 {
-  font-family: 'Roboto-Bold';
+  font-family: "Roboto-Bold";
   font-size: 40px;
   margin-top: 17px;
-  margin-bottom: 17px
+  margin-bottom: 17px;
 }
 
 .intro-text {
@@ -53,13 +53,12 @@ h1 {
 ul {
   margin-top: 0;
   padding-left: 0;
-  
 }
 
 li {
   list-style-type: none; /* Hide default bullet */
   padding-left: 25px; /* Adjust as needed */
-  background-image: url('../assets/images/icon-success.svg');
+  background-image: url("assets/images/icon-success.svg");
   background-size: 15px 15px; /* Your desired size */
   background-repeat: no-repeat;
   margin-bottom: 5px;
@@ -68,12 +67,12 @@ li {
 }
 
 #email-label {
-  font-family: 'Roboto-Bold';
+  font-family: "Roboto-Bold";
   font-size: 9px;
 }
 
 #error-message {
-  font-family: 'Roboto-Regular';
+  font-family: "Roboto-Regular";
   font-size: 9px;
   color: red;
   position: relative;
@@ -99,8 +98,8 @@ button {
   border: 0px;
   border-radius: 5px;
   margin-top: 18px;
-  font-family: 'Roboto-Bold';
-  font-size: 12px
+  font-family: "Roboto-Bold";
+  font-size: 12px;
 }
 
 button:hover {
@@ -127,3 +126,36 @@ button:hover {
   color: hsl(228, 45%, 44%);
 }
 
+@media (max-width: 374px) {
+  body {
+    background-color: white;
+  }
+
+  #main-card {
+    width: 100%;
+    height: 100%;
+  }
+
+  #inner-text-card {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .image-container {
+    width: 340px;
+    height: 284px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
+  .mac-image {
+    content: url("assets/images/illustration-sign-up-mobile.svg");
+    width: 100%;
+    height: 274px;
+  }
+}
