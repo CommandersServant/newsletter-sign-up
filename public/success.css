@@ -60,7 +60,7 @@ button:hover {
   background-image: linear-gradient(to right, purple, tomato);
 }
 
-@media (max-width: 374px) {
+@media (max-width: 400px) {
   body {
     background-color: white;
   }
