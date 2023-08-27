@@ -72,6 +72,15 @@ li {
   font-size: 9px;
 }
 
+#error-message {
+  font-family: 'Roboto-Regular';
+  font-size: 9px;
+  color: red;
+  position: relative;
+  top: 22px;
+  left: 210px;
+}
+
 #email-input {
   margin-top: 5px;
   width: 275px;
