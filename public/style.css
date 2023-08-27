@@ -126,7 +126,7 @@ button:hover {
   color: hsl(228, 45%, 44%);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   body {
     background-color: white;
   }
